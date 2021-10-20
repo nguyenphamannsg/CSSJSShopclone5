@@ -1,0 +1,176 @@
+﻿
+html *, body * {
+    font-family: 'Roboto', sans-serif !important;
+    
+    text-shadow: 0 0 1px rgba(51,51,51,0.3) !important;
+}
+
+#mainmenu li a:hover, #mainmenu li a:focus, #mainmenu li form button:hover, #mainmenu li form button:focus {
+    color: #ffff !important;
+    background-color: #0366d6;
+    border-radius: 5px;
+    outline: 0;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a.notif {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url('/images/email.png');
+    background-size: contain;
+    text-decoration: none;
+}
+
+a.no_notif {
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url('/images/no_email.png');
+    background-size: contain;
+    text-decoration: none;
+}
+
+.num {
+    position: absolute;
+    right: 8px;
+    top: 3px;
+    color: #fff;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none
+  }
+}
+.topics{margin-top:10px;}
+.topics .panel-body{padding:0px 10px;}
+.topic{min-height:68px;border-bottom:1px solid #F0F0F0;padding:10px 15px;}
+.topic .count{width:100px;padding-top:15px;text-align:center;}
+.topic .count a{min-width:32px;line-height:11px;padding:3px 8px;background-color:#337ab7;color:#fff;border-radius:60px;text-decoration:none;display:inline-block;}
+.avatar{float:left;}
+.avatar-48 {
+    height:48px;
+    width:48px;
+    max-width:48px;
+    border-radius:120px;
+}
+.title{font-size:18px;margin-bottom:0px;margin-top:0px;}
+.title a{line-height:28px;}
+.info{color:#ABA8A6;margin-bottom:0px;margin-top:0px;font-size:13px;}
+.node-list .node{margin-bottom:10px;margin-top:0px;}
+.node-list .node .media-left{min-width:130px;font-weight:normal;text-align:right;color:#aaa;float:left;}
+.node-list .node .name {margin-bottom:10px;width:100px;display:block;float:left;text-align:left;}
+#sections .panel-body{padding:15px;}
+.topic-detail{margin-bottom:15px;}
+.topic-detail h1{font-size:24px;}
+.topic-detail .avatar{float:right;}
+.items.panel-body{padding:0px 15px;}
+.reply:last-child{border-bottom:0px;}
+.reply{border-bottom:1px solid #eee;}
+.reply{margin:0px -15px;padding:15px 15px;position:relative;padding-left:74px;}
+.reply .avatar{position:absolute;top:15px;left:15px;}
+.reply .infos{min-height:48px;}
+.reply .info{margin-bottom:6px;}
+.reply .markdown{position:relative;line-height:1.8em;text-overflow:ellipsis;word-wrap:break-word;}
+.panel-footer{padding:6px 15px;}
+.pagination{margin:0px;}
+img {
+    max-width:100%;height:auto;
+}
+.avatar-96 {
+    height: 96px;
+    width: 96px;
+    border-radius: 120px;
+}
+
+.recent-topics ul li .title,
+.recent-replies ul li .title {
+    font-size: 14px;
+}
+
+.recent-topics ul li .info {
+    font-size: 12px;
+}
+
+.recent-topics ul li .node {
+    color: #777;
+    margin-right: 3px;
+}
